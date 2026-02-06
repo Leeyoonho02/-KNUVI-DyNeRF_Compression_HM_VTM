@@ -17,7 +17,7 @@ FFMPEG_PATH = r"D:\ffmpeg-2026-02-02-git-7e9fe341df-full_build\bin\ffmpeg.exe"
 CONFIG_PATH = os.path.join(os.getcwd(), "VVCSoftware_VTM", "cfg", "encoder_intra_vtm.cfg")
 
 # 입력 YUV 파일들이 있는 폴더
-INPUT_DIR = r"D:\DyNeRF_Compression_HM_VTM\RAW_YUV"
+INPUT_DIR = r"D:\DyNeRF_Compression_HM_VTM\Input_to_compress"
 
 # 결과물이 저장될 최상위 폴더
 OUTPUT_BASE_DIR = os.path.join(os.getcwd(), "Compressed")
